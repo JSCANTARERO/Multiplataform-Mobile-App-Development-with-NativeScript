@@ -1,7 +1,9 @@
-import { Component } from "@angular/core";
+. . .
 
-@Component({
-    selector: "ns-app",
-    templateUrl: "./app.component.html"
-})
-export class AppComponent { }
+import { MenuComponent } from './menu/menu.component';
+
+const routes: Routes = [
+    { path: "", redirectTo: "/menu", pathMatch: "full" },
+    { path: "menu", component: MenuComponent }
+
+    . . .
