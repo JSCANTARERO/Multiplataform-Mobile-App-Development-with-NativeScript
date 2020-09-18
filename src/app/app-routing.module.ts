@@ -16,3 +16,13 @@ const routes: Routes = [
     exports: [NativeScriptRouterModule]
 })
 export class AppRoutingModule { }
+
+. . .
+
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
+
+. . .
+
+    { path: 'dishdetail/:id',     component: DishdetailComponent },
+
+. . .
